@@ -1,18 +1,22 @@
 {
-  "name": "e-sports",
-  "version": "0.1.0",
+  "name": "expressjs",
+  "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
     "axios": "^0.17.1",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "proxy": "http://localhost:3001"
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
 }
